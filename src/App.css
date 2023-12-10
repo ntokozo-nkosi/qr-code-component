@@ -1,0 +1,36 @@
+.Card {
+  background-color: white;
+  width: 240px;
+  height: min-content;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.Card img {
+  width: 220px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.Card div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* gap: 5px; */
+}
+
+.Card div p {
+  margin-bottom: 10px;
+}
+
+.primary-txt {
+  width: 210px;
+  font-weight: 700;
+}
+
+.secondary-txt {
+  width: 210px;
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+}
